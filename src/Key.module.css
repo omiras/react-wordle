@@ -5,6 +5,7 @@
     background-color: aliceblue;
     border-radius: 8px;
     padding: 16px;
+    user-select: none;
 }
 
 .container:hover {
