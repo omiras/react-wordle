@@ -1,0 +1,14 @@
+.container {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.container:hover {
+    background-color: rgba(47, 64, 79, 0.869);
+    color: white;
+    cursor: pointer;
+}
