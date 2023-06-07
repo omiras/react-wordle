@@ -13,6 +13,12 @@ Para el backspace puedes usar:
 
 Implementa el componente Key. ¿Cómo podemos hacer para renderizar todas las teclas de golpe sin tener que copiar/pegar 23 `<Key>h<Key>` ?
 
+## Tecla - Gestión del evento onClick
+
+- Que ocurre al gestionar el evento onClick en Key
+- Cómo podemos informar a nuestro padre que hemos sido pulsados
+- ¿Valdría la pena añadir una propiedad?
+
 ## Letter - Componente Letter
 
 El componente Letter debe recibir una propiedad, que indica la letra que contiene . Además, debemos pasarle otra propiedad para indicar el color de fondo
@@ -24,13 +30,11 @@ El componente Letter debe recibir una propiedad, que indica la letra que contien
 La primera debería renderizar:
 <img src="https://oscarm.tinytake.com/media/148ec5a?filename=1686068164700_TinyTake06-06-2023-06-15-56_638216649637577433.png&sub_type=thumbnail_preview&type=attachment&width=80&height=77" title="Powered by TinyTake Screen Capture"/><br>
 
-Para hacerlo sencillo, primero vamos a renderizar simplemente 5 
+Para hacerlo sencillo, primero vamos a renderizar simplemente 5
 
-## Estado 
+## Estado
 
 Necesitamos 2 variables de estado
 
 1. La palabra del día correcta
 2. La palabra que está escribiendo el usuario
-
-
